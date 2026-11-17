@@ -3565,13 +3565,5 @@ function App() {
 // ==========================================
 ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 
-window.__app_id = 'octopus-handball-v2';
-  window.__firebase_config = JSON.stringify({
-    apiKey: "AIzaSyCguMErorYNUv6Qm59PXu5KitCpCvmKrJQ",
-    authDomain: "octopusteammanagementapp.firebaseapp.com",
-    projectId: "octopusteammanagementapp",
-    storageBucket: "octopusteammanagementapp.firebasestorage.app",
-    messagingSenderId: "945765844965",
-    appId: "1:945765844965:web:85a0df15dfb6a54697110c"
-  });
-</script>
+
+                                                          
