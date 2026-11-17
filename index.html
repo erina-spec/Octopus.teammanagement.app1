@@ -50,18 +50,18 @@
   <body>
     <div id="root"></div>
 
-    <script>
-  window.__app_id = 'octopus-handball-v2';
-  window.__firebase_config = JSON.stringify({
-    apiKey: "AIzaSyCguMErorYNUv6Qm59PXu5KitCpCvmKrJQ",
-    authDomain: "octopusteammanagementapp.firebaseapp.com",
-    projectId: "octopusteammanagementapp",
-    storageBucket: "octopusteammanagementapp.firebasestorage.app",
-    messagingSenderId: "945765844965",
-    appId: "1:945765844965:web:85a0df15dfb6a54697110c"
-  });
+   <script type="importmap">
+  {
+    "imports": {
+      "react": "https://esm.sh/react@18.3.1",
+      "react-dom/client": "https://esm.sh/react-dom@18.3.1/client?deps=react@18.3.1",
+      "firebase/app": "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js",
+      "firebase/auth": "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js",
+      "firebase/firestore": "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js",
+      "lucide-react": "https://esm.sh/lucide-react@0.383.0?deps=react@18.3.1"
+    }
+  }
 </script>
-
     <script type="text/babel" data-type="module" src="script.js"></script>
   </body>
 </html>
