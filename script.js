@@ -3565,26 +3565,13 @@ function App() {
 // ==========================================
 ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 
-<script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/13.4.0/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/13.4.0/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
+window.__app_id = 'octopus-handball-v2';
+  window.__firebase_config = JSON.stringify({
     apiKey: "AIzaSyCguMErorYNUv6Qm59PXu5KitCpCvmKrJQ",
     authDomain: "octopusteammanagementapp.firebaseapp.com",
     projectId: "octopusteammanagementapp",
     storageBucket: "octopusteammanagementapp.firebasestorage.app",
     messagingSenderId: "945765844965",
-    appId: "1:945765844965:web:85a0df15dfb6a54697110c",
-    measurementId: "G-TX9L2M4V3H"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>                                                            
+    appId: "1:945765844965:web:85a0df15dfb6a54697110c"
+  });
+</script>
