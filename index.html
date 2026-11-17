@@ -17,17 +17,21 @@
     <!-- Firebase（みんなで共有したい場合）：下を有効にして自分の設定を入れる。
          空のままならこの端末だけで動く（保存は共有されない） -->
     
-    <script>
-      window.__app_id = 'octopus-handball-v2';
-      window.__firebase_config = JSON.stringify({
-        apiKey: '...',
-        authDomain: '...',
-        projectId: '...',
-        storageBucket: '...',
-        messagingSenderId: '...',
-        appId: '...'
-      });
-    </script>
+ const firebaseConfig = {
+  apiKey: "AIzaSyCguMErorYNUv6Qm59PXu5KitCpCvmKrJQ",
+  authDomain: "octopusteammanagementapp.firebaseapp.com",
+  projectId: "octopusteammanagementapp",
+  storageBucket: "octopusteammanagementapp.firebasestorage.app",
+  messagingSenderId: "945765844965",
+  appId: "1:945765844965:web:85a0df15dfb6a54697110c",
+  measurementId: "G-TX9L2M4V3H"
+};
+
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+
+
     
 
     <!-- script.js 内の import の読み込み先 -->
