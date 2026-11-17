@@ -690,8 +690,6 @@ const HandballCourtBoard = ({
 // ==========================================
 function App() {
   const appId = typeof __app_id !== 'undefined' ? __app_id : 'octopus-handball-v2';
-  baseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : null;
-
   const [db, setDb] = useState(null);
   const [user, setUser] = useState(null);
 
