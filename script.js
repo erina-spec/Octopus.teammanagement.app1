@@ -1,10 +1,8 @@
-import ReactDOM from 'react-dom/client';
-import React, { useState, useEffect, useRef, useMemo } from 'react';
-import {
-  initializeApp,
-  getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged,
-  getFirestore, doc, setDoc, deleteDoc, onSnapshot, collection
-} from 'firebase-all';
+import ReactDOM from 'https://esm.sh/react-dom@18.3.1/client?deps=react@18.3.1';
+import React, { useState, useEffect, useRef, useMemo } from 'https://esm.sh/react@18.3.1';
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js';
+import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js';
+import { getFirestore, doc, setDoc, deleteDoc, onSnapshot, collection } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js';
   Trophy,
   Target,
   Users,
@@ -38,7 +36,6 @@ import {
   Share,
   Smartphone
 } from 'https://esm.sh/lucide-react@0.383.0?deps=react@18.3.1';
-
 // ==========================================
 // 初期サンプルデータ (オクトパス：低学年・高学年)
 // ==========================================
