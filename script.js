@@ -650,7 +650,7 @@ const HandballCourtBoard = ({
           })}
         </svg>
 
-          const firebaseConfig = {
+  const firebaseConfig = {
   apiKey: "AIzaSyCguMErorYNUv6Qm59PXu5KitCpCvmKrJQ",
   authDomain: "octopusteammanagementapp.firebaseapp.com",
   projectId: "octopusteammanagementapp",
@@ -689,7 +689,7 @@ const HandballCourtBoard = ({
 // ==========================================
 function App() {
   const appId = typeof __app_id !== 'undefined' ? __app_id : 'octopus-handball-v2';
-  const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : null;
+  baseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : null;
 
   const [db, setDb] = useState(null);
   const [user, setUser] = useState(null);
