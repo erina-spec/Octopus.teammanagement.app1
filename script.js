@@ -650,6 +650,15 @@ const HandballCourtBoard = ({
           })}
         </svg>
 
+          const firebaseConfig = {
+  apiKey: "AIzaSyCguMErorYNUv6Qm59PXu5KitCpCvmKrJQ",
+  authDomain: "octopusteammanagementapp.firebaseapp.com",
+  projectId: "octopusteammanagementapp",
+  storageBucket: "octopusteammanagementapp.firebasestorage.app",
+  messagingSenderId: "945765844965",
+  appId: "1:945765844965:web:85a0df15dfb6a54697110c",
+};
+
         <div className="bg-slate-950/90 text-white px-3 py-1.5 text-[11px] font-bold flex flex-wrap items-center justify-between gap-2">
           <div className="flex items-center gap-3">
             <span className="flex items-center gap-1">
