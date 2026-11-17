@@ -1,8 +1,8 @@
-import ReactDOM from 'https://esm.sh/react-dom@18.3.1/client?deps=react@18.3.1';
-import React, { useState, useEffect, useRef, useMemo } from 'https://esm.sh/react@18.3.1';
-import { initializeApp } from 'https://esm.sh/firebase@10.12.2/app';
-import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from 'https://esm.sh/firebase@10.12.2/auth';
-import { getFirestore, doc, setDoc, deleteDoc, onSnapshot, collection } from 'https://esm.sh/firebase@10.12.2/firestore';
+import ReactDOM from 'react-dom/client';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
+import { initializeApp } from 'firebase/app';
+import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from 'firebase/auth';
+import { getFirestore, doc, setDoc, deleteDoc, onSnapshot, collection } from 'firebase/firestore';
 import {
   Trophy,
   Target,
