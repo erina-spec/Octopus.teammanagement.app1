@@ -1,9 +1,10 @@
 import ReactDOM from 'react-dom/client';
 import React, { useState, useEffect, useRef, useMemo } from 'react';
-import { initializeApp } from 'firebase/app';
-import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from 'firebase/auth';
-import { getFirestore, doc, setDoc, deleteDoc, onSnapshot, collection } from 'firebase/firestore';
 import {
+  initializeApp,
+  getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged,
+  getFirestore, doc, setDoc, deleteDoc, onSnapshot, collection
+} from 'firebase-all';
   Trophy,
   Target,
   Users,
